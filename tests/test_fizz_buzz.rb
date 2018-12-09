@@ -34,4 +34,12 @@ class TestFizzBuzz < Minitest::Test
 
     assert_equal('Fizz Buzz', result[14])
   end
+
+  def test_print_number_if_not_multiple_of_three_or_five
+    game = FizzBuzz.new
+
+    result = game.sequence
+
+    assert_equal(1, result[0])
+  end
 end
