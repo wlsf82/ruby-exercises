@@ -12,4 +12,8 @@ class FizzBuzz
       x.fizz_buzz
     end
   end
+
+  def transform(n)
+    sequence[n-1]
+  end
 end
