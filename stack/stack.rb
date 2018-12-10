@@ -14,4 +14,8 @@ class Stack
   def size
     @elements.size
   end
+
+  def top
+    @elements.last
+  end
 end
