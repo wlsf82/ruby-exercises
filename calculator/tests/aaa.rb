@@ -1,3 +1,15 @@
+def Arrange
+  yield
+end
+
+def Act
+  yield
+end
+
+def Assert
+  yield
+end
+
 def Given
   yield
 end
